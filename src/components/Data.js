@@ -18,6 +18,9 @@ const Data = ({city,country,temp,mintemp,maxtemp,weather})=>{
                 case "Snow":
                 clima = snow;
                         break;
+                case "Rain":
+                clima = rain;
+                        break;
                 default:
                         break;
         }

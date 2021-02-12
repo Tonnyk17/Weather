@@ -1,4 +1,4 @@
-import useInitialState from "../hooks/useInititalState";
+
 import Header from "../components/Header";
 import React from "react";
 import Data from "../components/Data";
