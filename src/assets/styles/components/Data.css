@@ -1,0 +1,36 @@
+.Data-container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80vh;
+}
+.info-title{
+    padding: 5px;
+    font-size: 3.6rem;
+}
+.country{
+    font-size: 1.4rem;
+    padding: 5px;
+}
+.info-main-weather{
+    padding: 10px;
+    font-size: 3.4rem;
+}
+.info-minmax-weather{
+    padding: 5px;
+    font-size: 1.6rem;
+}
+@media screen and (min-width: 800px){
+  
+    .Data-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 30px;
+        justify-items: center;
+    }
+}
+
+
